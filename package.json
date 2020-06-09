@@ -1,0 +1,31 @@
+{
+  "name": "govuktechtest",
+  "version": "1.0.0",
+  "description": "An API that uses the one provided in the Tech test and brings results for people based in London or in a 50 mile radius",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --exit \"tests/*.tests.js\"",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xectich/GovUKTechTest.git"
+  },
+  "author": "Simeon Kostadinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xectich/GovUKTechTest/issues"
+  },
+  "homepage": "https://github.com/xectich/GovUKTechTest#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "geolib": "^3.3.1",
+    "lodash": "^4.17.15",
+    "mocha": "^7.2.0",
+    "nock": "^12.0.3",
+    "nodemon": "^2.0.4"
+  }
+}
