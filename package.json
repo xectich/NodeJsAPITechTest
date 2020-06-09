@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xectich/GovUKTechTest.git"
+    "url": "git+https://github.com/xectich/NodeJsAPITechTest.git"
   },
   "author": "Simeon Kostadinov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xectich/GovUKTechTest/issues"
+    "url": "https://github.com/xectich/NodeJsAPITechTest/issues"
   },
-  "homepage": "https://github.com/xectich/GovUKTechTest#readme",
+  "homepage": "https://github.com/xectich/NodeJsAPITechTest#readme",
   "dependencies": {
     "axios": "^0.19.2",
     "chai": "^4.2.0",
